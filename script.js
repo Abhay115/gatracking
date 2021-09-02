@@ -11,6 +11,7 @@ searchInput.addEventListener("search", (event)=>{
 searchInput.addEventListener("input", (event)=>{
     
   console.log(event.target.value);
+     ga('send', 'event', 'myInput', 'input');
 });
 
 
