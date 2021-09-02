@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Hello Universe!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+    <body>
+    <div>
+        <h1>My App</h1>
+
+              <input type="search" id="myInput" placeholder="Search" value="">
+            <button type="submit" id="btn"><i class="fa fa-search"></i></button><br>
+
+            <br>
+            <a id="link" href="https://www.google.com#google_site">google</a>
+
+  
+    </div>
+    
+        <script type="text/javascript">
+
+  var a = document.getElementById("link");
+  
+    a.onclick = ()=> { console.log("link clicked");
+   //console.log();
+   const link=document.getElementById("link").hash;
+console.log(link);
+    return false;
+};
+
+</script>
+<script src="script.js"></script>
+    
+
+</body>
+</html>
