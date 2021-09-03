@@ -11,7 +11,7 @@ searchInput.addEventListener("search", (event)=>{
 searchInput.addEventListener("input", (event)=>{
     
   console.log(event.target.value);
-     ga('send', 'event', 'myInput', 'input');
+     ga('send', 'event', 'myInput', input);
 });
 
 
@@ -21,6 +21,17 @@ button.addEventListener("click", ()=>{
   
   console.log(x.value);
 });
+
+var click=document.getElementById("link2");
+click.addEventListener("click",e=>{
+  let t=e.target;
+  ga('send', {
+    hitType:'event',
+    eventCategory:'click',
+    eventAction: t.href});
+}
+
+);
 
 
 
