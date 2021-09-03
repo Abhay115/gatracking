@@ -1,6 +1,4 @@
-
 const searchInput=document.getElementById("myInput");
-const txt="";
 
 var x = document.getElementById("myInput");
 searchInput.addEventListener("search", (event)=>{
