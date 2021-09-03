@@ -7,9 +7,9 @@ searchInput.addEventListener("search", (event)=>{
 });
 
 searchInput.addEventListener("input", (event)=>{
-    
-  console.log(event.target.value);
-     ga('send', 'event', 'myInput', input);
+    let v=event.target.value;
+  console.log(v);
+     ga('send', 'event', 'myInput', v);
 });
 
 
