@@ -23,10 +23,11 @@ button.addEventListener("click", ()=>{
 var click=document.getElementById("link2");
 click.addEventListener("click",e=>{
   let t=e.target;
-  ga('send', {
-    hitType:'event',
-    eventCategory:'click',
-    eventAction: t.href});
+    if ("ga" in window) {
+    tracker = ga.getAll()[0];
+    if (tracker)
+        tracker.send("event", "click", "t.href");
+
 }
 
 );
