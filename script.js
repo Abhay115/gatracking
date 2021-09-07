@@ -30,7 +30,7 @@ click.addEventListener("click",e=>{
 
 }
 
-);
+});
 
 
 
