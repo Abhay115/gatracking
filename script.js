@@ -32,12 +32,12 @@ function myfun(e){
   var href = e.getAttribute("href");
    console.log(href);
 
-gtag('set',{
+
+gtag('event','onclicked'{
     'userInput': txt,
     'linkTitle': t,
     'linkUrl': href
 });
-gtag('event','click');
  
   
 
