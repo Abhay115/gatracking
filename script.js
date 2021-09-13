@@ -33,7 +33,7 @@ function myfun(e){
    console.log(href);
 
 
-gtag('event','onclicked'{
+gtag('event','linkClick'{
     'userInput': txt,
     'linkTitle': t,
     'linkUrl': href
