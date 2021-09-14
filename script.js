@@ -43,7 +43,7 @@ gtag('event','linkClick',{
 
 
  
- return false;
+ //return false;
 //console.log(event.hash);
 //console.log(event.href);
 
